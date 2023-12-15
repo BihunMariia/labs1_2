@@ -1,0 +1,36 @@
+.other {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.other__text {
+    font-size: medium;
+}
+
+.other__title {
+    color: #212353;
+    font-family: Helvetica;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+}
+
+.other__paragraph {
+    color: var(--1, #4B5D68);
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 500;
+    height: 20px;
+}
+
+@media screen and (max-width: 1024px) {
+    .other {
+        display: block;
+    }
+
+    .other__paragraph {
+        width: 300px;
+    }
+}
