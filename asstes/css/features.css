@@ -1,0 +1,132 @@
+.features {
+    margin: 0 auto;
+}
+
+.features__intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+
+}
+
+.features__title {
+    margin-top: 0;
+    margin-bottom: 50px;
+    color: #212353;
+    text-align: center;
+    font-family: Helvetica;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+}
+
+.features__suptitle {
+    margin-top: 0;
+    font-family: 'Sen', sans-serif;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 160%;
+
+}
+
+.block {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0 10%;
+}
+
+.block:first-child {
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.card {
+    display: flex;
+    justify-content: space-around;
+    height: 358px;
+    margin: 0 15%;
+    position: relative;
+
+}
+
+.img__card {
+    width: 232px;
+    height: 211px;
+    margin-top: 73px;
+    position: absolute;
+    margin-right: 432px;
+}
+
+.img__card3 {
+    width: 245px;
+    height: 181px;
+    margin-top: 123px;
+    position: absolute;
+    margin-right: 432px;
+}
+
+.card_data {
+    display: block;
+    width: 442px;
+    height: 358px;
+    position: absolute;
+}
+
+.text__card {
+    position: absolute;
+    width: 220px;
+    height: 160px;
+    margin-top: 90px;
+    margin-right: 50px;
+    margin-bottom: 79px;
+    margin-left: 172px;
+
+}
+
+.features__text {
+    color: var(--1, #4B5D68);
+    font-family: 'Sen', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+}
+
+.title__card {
+    display: flex;
+    width: 200px;
+    height: 50px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+.card__title {
+    color: #212353;
+    font-family: Helvetica;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+}
+
+.line {
+    margin-top: 133px;
+    margin-bottom: 100px;
+    opacity: .2;
+
+}
+
+@media screen and (max-width: 1024px) {
+    .block {
+        display: block;
+    }
+
+
+}
